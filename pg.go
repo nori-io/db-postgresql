@@ -10,7 +10,7 @@
 // Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with this program; if not, see <http://www.gnu.org/licenses/>.
+// along with this program; if not, see <http://www.gnu.org/licenses/>
 package main
 
 import (
@@ -67,14 +67,14 @@ func (p plugin) Meta() meta.Meta {
 
 		ID: meta.ID{
 			ID:      "nori/db/postgresql/pg",
-			Version: "1.0",
+			Version: "1.0.0",
 		},
 		Author: meta.Author{
 			Name: "Nori",
 			URI:  "https://nori.io",
 		},
 		Core: meta.Core{
-			VersionConstraint: ">=1.0, <2.0",
+			VersionConstraint: ">=1.0.0, <2.0.0",
 		},
 		Dependencies: []meta.Dependency{},
 		Description: meta.Description{
